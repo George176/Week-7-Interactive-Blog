@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="myscripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Blog</title>
+</head>
+
+<body onload="toggle()" class="dark">
+    <!--Navigation bar-->
+    <navbar>
+        <a href="index.html" class="nav-logo dark"><img class="nav-logo"
+                src="https://dxnav.landrover.com/current/images/logo-landrover-7bd33da9d247934b2b4929d399ab8a42.png" /></a>
+        <a href="#" class="nav-item darkHover">BUY A USED CAR</a>
+        <a href="#" class="nav-item darkHover">RANGE ROVER SPORT</a>
+        <a href="contact-us.html" class="nav-item darkHover">CONTACT US</a>
+        <a href="#" class="nav-item darkHover">NEWS</a>
+        <div></div>
+        <a href="#" id='btn' type="button" class="nav-item dark-mode-button darkHover">Light/Dark mode</a>
+        <div></div>
+        <a href="#" class="nav-item darkHover">MY ACCOUNT</a>
+    </navbar>
+    <!--Blog background image-->
+    <div class="blog-form-background">
+        <center>
+            <form onsubmit="return analyseBlog()" id="form">
+                <label class="label" for="blog-title">BLOG TITLE</label>
+                <input class="input" type="text" id="blog-title" name="blog-title" placeholder="Type blog title here"
+                    required>
+                <label class="label" for="author">AUTHOR</label>
+                <input class="input" type="text" id="author" name="author" placeholder="Type author's name here"
+                    required>
+                <label class="label" for="blog-body">BLOG BODY</label>
+                <textarea class="text-area" id="blog-body" name="blog-body" rows="16" placeholder="Type blog body here"
+                    required></textarea><br>
+                <!--Post blog button-->
+                <input class="post-blog" type="submit" value="POST BLOG">
+                <br>
+                <a href="./download-blog.html" class="post-blog download">DOWNLOAD & CREATE BLOG</a>
+                <br>
+                <a href="./upload-blog.html" class="post-blog download">UPLOAD BLOG</a>
+            </form>
+        </center>
+        <!--Blog content-->
+        <center>
+            <div class="submitted-blog">
+                <h1 id="h1-blog-title"></h1>
+                <h3 id="h3-author"></h3>
+                <p id="p-blog-body"></p>
+            </div>
+        </center>
+    </div>
+</body>
+
+</html>
