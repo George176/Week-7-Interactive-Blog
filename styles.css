@@ -1,0 +1,356 @@
+.blog-heading,
+.blog-subtext,
+.main-blog {
+    font: 2rem Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-top: 2rem;
+}
+
+.blog-subtext {
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font: 1.2rem Arial, Helvetica, sans-serif;
+}
+
+.main-blog {
+    margin-top: 1.5rem;
+    font: 1rem Arial, Helvetica, sans-serif;
+}
+
+.dblog-container {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.defender-image {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.back-to-main {
+    font: 1rem Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    margin: 3%;
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+.back-to-main:hover {
+    font: 1rem Arial, Helvetica, sans-serif;
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+    outline: 1px solid black;
+}
+
+.send-email {
+    font: 1rem Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    width: 100%;
+    letter-spacing: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 8%;
+    border-radius: 50px;
+    padding: 2%;
+
+}
+
+.send-email:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.send-email-link {
+    padding: 3%;
+    background-color: black;
+    display: inline-block;
+    font: 0.8rem Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.elabel {
+    display: block;
+    font: 1rem Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    padding: 0%;
+    margin: 2%;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.email-form-background {
+    background-image: url("https://landrover.rockar.com/media/wysiwyg/jlr/contact_us/jaguar/contact_us_banner.jpg");
+}
+
+.blog-form-background {
+    padding-bottom: 0.5%;
+    background-image: url("https://landrover.rockar.com/media/wysiwyg/jlr/2021/Q4_2021/JagBannerLove.jpg");
+}
+
+#form {
+    padding-top: 1%;
+    width: 80%;
+}
+
+.upload {
+    background-color: white;
+    display: block;
+    width: 90%;
+    padding: 1%;
+    border-radius: 5px;
+    font: 1.2rem Arial, Helvetica, sans-serif;
+}
+
+.submitted-blog {
+    padding: 1rem;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    word-wrap: break-word;
+    background-color: black;
+}
+
+#h1-blog-title,
+#h3-author,
+#p-blog-body {
+    margin-top: 1%;
+    color: white;
+    text-align: center;
+}
+
+.label,
+.input,
+.text-area,
+.post-blog {
+    display: block;
+    font: 1rem Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.input {
+    text-align: center;
+    color: black;
+    line-height: 1rem;
+}
+
+.text-area {
+    text-align: left;
+    color: black;
+    line-height: 1rem;
+}
+
+.post-blog {
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 50px;
+    width: 100%;
+}
+
+.post-blog:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+
+}
+
+
+
+.create {
+    margin: 3%;
+    margin-top: 5%;
+    margin-left: 0;
+    padding: 3%;
+    background-color: black;
+    display: inline-block;
+    font: 0.8rem Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.create:hover {
+    background-color: white;
+    transition: 0.5s;
+    color: black;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1%;
+    margin: 1%;
+    padding-bottom: 5%;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog-image {
+    width: 100%;
+    padding-bottom: 3%;
+}
+
+.blog-title {
+    text-align: center;
+    font: 1.5rem Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #013220;
+    padding-bottom: 2%;
+}
+
+.blog-subtitle {
+    text-align: center;
+    font: 1rem Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    padding-bottom: 2%;
+}
+
+
+
+.view-blog {
+    font: 1.3rem Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    background-color: black;
+    padding: 2%;
+    display: block;
+}
+
+.view-blog:hover {
+    font: 1.3rem Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: black;
+    background-color: white;
+    outline: 0.01rem solid black;
+    transition: 0.5s;
+}
+
+.sub {
+    font: 1rem Arial, Helvetica, sans-serif;
+}
+
+.banner-heading {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    right: 50%;
+    color: white;
+    letter-spacing: 2px;
+    font: 2rem Arial, Helvetica, sans-serif;
+}
+
+.contact-heading {
+    position: absolute;
+    padding: 1%;
+    top: 5%;
+    left: 5%;
+    right: 50%;
+    letter-spacing: 2px;
+    font: 2rem Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin-top: 2%;
+    color: black;
+}
+
+.contact-us-banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    position: relative;
+}
+
+navbar {
+    display: grid;
+    grid-template-columns: auto repeat(8, 1fr);
+}
+
+.nav-item:hover {
+    background: rgba(82, 81, 81, 0.182);
+}
+
+.nav-item,
+.nav-logo {
+    font: 0.75rem Arial, Helvetica, sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    padding: 0.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-image {
+    height: 42vh;
+    object-fit: cover;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+}
+
+/*Dark mode styles*/
+.whiteOutline.mode {
+    outline: 1px solid white;
+    color: white;
+    background-color: black;
+}
+
+.whiteOutline.mode:hover {
+    background-color: white;
+    color: black;
+    border-color: transparent;
+}
+
+.darkHover.mode {
+    background-color: black;
+    color: white;
+}
+
+.darkHover.mode:hover {
+    background-color: grey;
+}
+
+.dark.mode {
+    background-color: black;
+    color: white;
+}
+
+/*Dark mode button style*/
+.dark-mode-button {
+    background-color: transparent;
+}
