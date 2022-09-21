@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="myscripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Blog</title>
+</head>
+
+<body onload="toggle(); upload()" class="dark">
+    <!--Navigation bar-->
+    <navbar>
+        <a href="index.html" class="nav-logo dark"><img class="nav-logo"
+                src="https://dxnav.landrover.com/current/images/logo-landrover-7bd33da9d247934b2b4929d399ab8a42.png" /></a>
+        <a href="#" class="nav-item darkHover">BUY A USED CAR</a>
+        <a href="#" class="nav-item darkHover">RANGE ROVER SPORT</a>
+        <a href="contact-us.html" class="nav-item darkHover">CONTACT US</a>
+        <a href="#" class="nav-item darkHover">NEWS</a>
+        <div></div>
+        <a href="#" id='btn' type="button" class="nav-item dark-mode-button darkHover">Light/Dark mode</a>
+        <div></div>
+        <a href="#" class="nav-item darkHover">MY ACCOUNT</a>
+    </navbar>
+    <!--Blog background image-->
+    <div class="blog-form-background"><br>
+        <center>
+            <div id="form">
+                <textarea class="text-area" id="blog-body" name="blog-body" rows="30"
+                    placeholder="Blog will be uploaded to here." required></textarea><br>
+                <!--Post blog button-->
+                <input class="upload whiteOutline" type="file"><br>
+            </div>
+        </center>
+    </div>
+</body>
+
+</html>
