@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="myscripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+
+<body onload="toggle()" class="dark">
+    <!--Navigation bar-->
+    <navbar>
+        <a href="index.html" class="nav-logo dark"><img class="nav-logo"
+                src="https://dxnav.landrover.com/current/images/logo-landrover-7bd33da9d247934b2b4929d399ab8a42.png" /></a>
+        <a href="#" class="nav-item darkHover">BUY A USED CAR</a>
+        <a href="#" class="nav-item darkHover">RANGE ROVER SPORT</a>
+        <a href="contact-us.html" class="nav-item darkHover">CONTACT US</a>
+        <a href="#" class="nav-item darkHover">NEWS</a>
+        <div></div>
+        <a href="#" id='btn' type="button" class="nav-item dark-mode-button darkHover">Light/Dark mode</a>
+        <div></div>
+        <a href="#" class="nav-item darkHover">MY ACCOUNT</a>
+    </navbar>
+    <div class="container">
+        <!--Contact us image-->
+        <img class="contact-us-banner-image"
+            src="https://landrover.rockar.com/media/wysiwyg/jlr/contact_us/jaguar/contact_us_banner.jpg">
+        <div class="contact-heading dark">GET IN TOUCH
+            <br><br>
+            <div class="sub">We love to help. Talk to us online, give us a call or email us with your feedback and
+                questions
+                about anything to do with buying online, car queries or suggestions.<br><br>
+            </div>
+            <center>
+                <form id="form" onsubmit="return SendMail()">
+                    <label class="elabel dark" for="esubject">EMAIL SUBJECT</label>
+                    <input class="input" type="text" id="esubject" name="esubject" placeholder="Type Email Subject here"
+                        required>
+                    <label class="elabel dark" for="ebody">EMAIL BODY</label>
+                    <textarea class="text-area" id="ebody" name="ebody" rows="10" placeholder="Type Email Body here"
+                        required></textarea>
+                    <!--Send email-->
+                    <input class="send-email whiteOutline" type="submit" value="SEND EMAIL">
+                </form>
+            </center>
+        </div>
+    </div>
+</body>
+
+</html>
